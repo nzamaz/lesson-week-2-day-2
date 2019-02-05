@@ -1,0 +1,166 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ margin-left: auto;
+ margin-right: auto;
+ font-family: serif;
+}
+
+.first {
+ background: black;
+}
+
+.Logo {
+ color: yellow;
+ padding: 15px;
+}
+
+.Nav {
+ background: black;
+ color: white;
+}
+
+.Nav ul{
+ justify-content: flex-end;
+ list-style: none;
+}
+
+.Nav li {
+ display: inline-block;
+ padding: 9px;
+ padding-bottom: 20px;
+}
+
+.list-1{
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.hlist {
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+
+}
+
+.hlist li {
+ display: flex;
+ flex-direction: row;
+}
+
+.makelineyellow {
+ background: yellow;
+ height: 4px;
+}
+
+
+
+.second {
+ background: #D6D6D7;
+ padding: 15px
+}
+
+.sloganline {
+ text-align: center;
+ font-size: 25px;
+ font-weight: bold;
+}
+
+.make-grey {
+ color: grey;
+ text-d ecoration-line: line-through;
+}
+
+.make-underline {
+ text-decoration: underline;
+ text-decoration-color: yellow;
+}
+
+
+
+.third {
+   padding: 200px;
+   background: url(https://i.imgur.com/QT9DEMP.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   margin: 0px;
+   bottom: 0px;
+   width: 80%;
+
+}
+/* get it around and movable*/
+.match-box {
+ position: absolute;
+ top: 220px;
+ right: 400px;
+ width: 200px;
+ height: 300px;
+ border: 0px solid;
+ background: rgba(243, 241, 241, 0.7);;
+ padding: 10px;
+
+}
+
+.boxline {
+ font-size: 22px;
+ font-weight: bold;
+ padding-top: 15px;
+}
+
+.third p {
+ padding-left: 10px;
+ padding-bottom: 10px;
+}
+
+.third button {
+ background: yellow;
+ font-weight: bold;
+ padding: 10px;
+ margin: 20px;
+ margin-top: 60px;
+}
+
+
+.flex-container {
+ display: flex;
+}
+
+.flex-container > div {
+ margin: 20px;
+
+}
+
+.headline {
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.flex-container button {
+ padding: 8px;
+ margin-top: 20px;
+ font-weight: bold;
+ border-radius: 4px;
+}
+
+.divider {
+ width: 2px;
+ margin: 6px 0;
+ background: #D6D6D7;
+}
+
+
+
+.fourth{
+ background-color: black;
+ padding: 15px;
+}
+
+.copyrightsline {
+ color: white;
+ font-weight: bold;
+ text-align: center;
+}
